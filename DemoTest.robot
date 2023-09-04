@@ -7,13 +7,13 @@ Library     SeleniumLibrary
 
 *** Test Cases ***
 Change Primary Unit
-    open browser        https://qa.tracextech.com/  chrome
+    open browser          chrome
     Maximize Browser Window
     wait until page contains element        xpath://body/app-root[1]/div[1]/div[1]/app-login[1]/div[1]/div[2]/div[1]/form[1]  30s
     input text      css:#username   
     input text      css:#pwd       
     click button        //body/app-root[1]/div[1]/div[1]/app-login[1]/div[1]/div[2]/div[1]/form[1]/div[4]/mat-spinner-button[1]/button[1]
-    Wait Until Page Contains Element        //h2[contains(text(),'Welcome back Aryan!')]    30s
+    Wait Until Page Contains Element        //h2[contains(text(),'Welcome back ')]    30s
     location should be      https://qa.tracextech.com/#/dashboard
     Log     login succesfull
     Click Element       //span[contains(text(),'Settings')]
