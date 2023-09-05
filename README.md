@@ -5,7 +5,7 @@ this project is not about the proper project structure or using the best xpath o
 
 1. after pulling the branch do pip install -r requirements.txt to get all dependencies.
 2. use data.yaml file to store passwords and important organization information.
-3. use the chromedriver version suitable for your chrome version
+3. use the chromedriver version suitable for your chrome version , store it in Drivers directory which should be present at root level
 4. run command robot -d log testcasename.robot to store output fiels in log directory
 5. use page object model to structure and create files and keywords.
 6. connect with me for further setup.
