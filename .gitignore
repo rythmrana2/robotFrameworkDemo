@@ -2,3 +2,6 @@
 /log/output.xml
 /log/report.html
 /Drivers/
+*.yaml
+*.idea
+
